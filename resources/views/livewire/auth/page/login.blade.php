@@ -1,4 +1,4 @@
-<div class="h-100 w-90 flex flex-col gap-10">
+<div class="w-1/1 p-20 flex flex-col gap-10 ">
     <div class="flex items-center gap-2">
         <img src="{{ asset('assets/images/logo/logo.png') }}" class="h-12 w-12" >
         <h1 class="text-3xl font-semibold">HRMS</h1>
@@ -42,7 +42,10 @@
                 <input type="checkbox">
                 <a class="text-sm font-semibold">Remember me</a>
             </div>
-            <a href="#" class="text-primary font-light text-sm">Forgot Password</a href="#">
+            <a 
+            wire:navigate
+            href="/forgot-password" 
+            class="text-primary font-light text-sm">Forgot Password</a href="#">
         </div>
         
         <button class="bg-primary text-white py-2 rounded-lg" type="submit">Login</button> 
