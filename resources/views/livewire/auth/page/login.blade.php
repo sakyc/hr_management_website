@@ -1,11 +1,11 @@
-<div class="h-100 w-90 flex flex-col gap-5">
+<div class="h-100 w-90 flex flex-col gap-10">
     <div class="flex items-center gap-2">
         <img src="{{ asset('assets/images/logo/logo.png') }}" class="h-12 w-12" >
         <h1 class="text-3xl font-semibold">HRMS</h1>
     </div>
-    <div>
-        <h1 class="text-2xl font-semibold">Selamat Datang 👋</h1>
-        <p class="text-sm text-grayColor">Silahkan login untuk melanjutkan</p>
+    <div class="flex flex-col gap-2">
+        <h1 class="text-2xl font-semibold">Welcome 👋</h1>
+        <p class="text-sm text-grayColor">Please login here</p>
     </div>
     <form class="flex flex-col gap-3">
         <label for="email" 
