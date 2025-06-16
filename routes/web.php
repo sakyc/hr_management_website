@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\AddEmployee;
 use App\Livewire\Auth\Page\ForgotPassword;
 use App\Livewire\Auth\Page\Login;
 use App\Livewire\AllEmployee;
@@ -17,3 +18,5 @@ Route::get('/forgot-password', ForgotPassword::class)->name('forgot-password');
 Route::get('/dashboard', Dashboard::class);
 
 Route::get('/all-employee', AllEmployee::class);
+
+Route::get('add-employee', AddEmployee::class);
