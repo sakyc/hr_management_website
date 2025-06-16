@@ -2,7 +2,7 @@
     <!-- Sidebar -->
     <div class="fixed inset-y-0 left-0 z-50 w-64 bg-white shadow-lg">
         <!-- Logo -->
-        <div class="flex items-center h-16 px-6 border-b">
+        <div class="flex items-center h-16 px-6 rounded-lg">
             <div class="flex items-center space-x-3">
                 <div class="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
                     <span class="text-white font-bold text-sm">H</span>
@@ -12,7 +12,7 @@
         </div>
 
         <!-- Navigation -->
-        <nav class="mt-6">
+        <nav class="mt-6 p-2 ">
             <div class="px-3">
                 <a href="#" class="flex items-center px-3 py-2 text-purple-600 bg-purple-50 rounded-lg mb-1">
                     <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -89,19 +89,6 @@
                 </a>
             </div>
         </nav>
-        <!-- Light/Dark Mode Toggle -->
-<div class="fixed bottom-6 left-6">
-    <button class="flex items-center space-x-2 bg-white shadow-lg rounded-full px-4 py-2 hover:shadow-xl transition-shadow">
-        <svg class="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
-        </svg>
-        <span class="text-sm text-gray-600">Light</span>
-        <div class="w-6 h-3 bg-gray-200 rounded-full relative">
-            <div class="w-3 h-3 bg-white rounded-full absolute left-0 top-0 shadow-sm"></div>
-        </div>
-        <span class="text-sm text-gray-400">Dark</span>
-    </button>
-</div>
     </div>
     </div>
 </div>

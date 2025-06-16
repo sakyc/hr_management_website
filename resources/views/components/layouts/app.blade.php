@@ -9,7 +9,7 @@
 </head>
 <!-- Header -->
 <div class="ml-64">
-        <header class="bg-white shadow-sm border-b">
+        <header class="bg-white shadow-sm">
             <div class="flex items-center justify-between px-6 py-4">
                 <div>
                     <h1 class="text-2xl font-bold text-gray-900">Hello Robert 👋</h1>
