@@ -48,4 +48,35 @@
     @include('livewire.sidebar')
     {{ $slot }}
 </body>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('[data-tab-target]');
+    const tabContents = document.querySelectorAll('.form-tab');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        const target = document.querySelector(tab.dataset.tabTarget);
+
+        // Hide all contents
+        tabContents.forEach(content => content.classList.add('hidden'));
+
+        // Remove active tab styles
+        tabs.forEach(t => {
+          t.classList.remove('border-indigo-500', 'text-indigo-600');
+          t.classList.add('border-transparent', 'text-gray-500');
+        });
+
+        // Show target content
+        target.classList.remove('hidden');
+
+        // Activate clicked tab
+        tab.classList.add('border-indigo-500', 'text-indigo-600');
+        tab.classList.remove('border-transparent', 'text-gray-500');
+      });
+    });
+  });
+</script>
+
 </html>
