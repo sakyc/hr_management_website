@@ -8,6 +8,7 @@ use App\Livewire\Auth\Page\Otp;
 
 use App\Livewire\AllEmployee;
 use App\Livewire\Dashboard;
+use App\Livewire\DetailEmployee;
 use App\Livewire\Header;
 
 use App\Livewire\ProfessionalForm;
@@ -32,3 +33,4 @@ Route::get('add-employee', AddEmployee::class);
 
 Route::get('/professional-form', ProfessionalForm::class);
 
+Route::get('/detail-employee', DetailEmployee::class);
