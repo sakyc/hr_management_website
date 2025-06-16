@@ -10,6 +10,7 @@ use App\Livewire\AllEmployee;
 use App\Livewire\Dashboard;
 use App\Livewire\DetailEmployee;
 use App\Livewire\Header;
+use App\Livewire\Page\Holidays;
 
 use App\Livewire\ProfessionalForm;
 use App\Livewire\Settings\Appearance;
@@ -25,6 +26,7 @@ Route::get('/otp', Otp::class)->name('otp');
 
 Route::get('/dashboard', Dashboard::class);
 Route::get('/all-employee', AllEmployee::class);
+Route::get('/holidays', Holidays::class);
 
 
 Route::get('/all-employee', AllEmployee::class);

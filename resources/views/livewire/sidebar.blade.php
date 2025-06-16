@@ -14,7 +14,7 @@
         <!-- Navigation -->
         <nav class="mt-6 p-2 ">
             <div class="px-3">
-                <a href="#" class="flex items-center px-3 py-2 text-purple-600 bg-purple-50 rounded-lg mb-1">
+                <a href="/dashboard" class="flex items-center px-3 py-2 text-purple-600 bg-purple-50 rounded-lg mb-1">
                     <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
                         <path
                             d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
@@ -23,7 +23,7 @@
                     Dashboard
                 </a>
 
-                <a href="#" class="flex items-center px-3 py-2 text-gray-600 hover:bg-gray-50 rounded-lg mb-1">
+                <a href="/all-employee" class="flex items-center px-3 py-2 text-gray-600 hover:bg-gray-50 rounded-lg mb-1">
                     <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
                         <path
                             d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z">
@@ -94,7 +94,7 @@
                     Leaves
                 </a>
 
-                <a href="#" class="flex items-center px-3 py-2 text-gray-600 hover:bg-gray-50 rounded-lg mb-1">
+                <a href="/holidays" class="flex items-center px-3 py-2 text-gray-600 hover:bg-gray-50 rounded-lg mb-1">
                     <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd"
                             d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
@@ -113,6 +113,18 @@
                 </a>
             </div>
         </nav>
+        <div class="fixed bottom-6 left-6">
+                <button class="flex items-center space-x-2 bg-white shadow-lg rounded-full px-4 py-2 hover:shadow-xl transition-shadow">
+                    <svg class="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="text-sm text-gray-600">Light</span>
+                    <div class="w-6 h-3 bg-gray-200 rounded-full relative">
+                        <div class="w-3 h-3 bg-white rounded-full absolute left-0 top-0 shadow-sm"></div>
+                    </div>
+                    <span class="text-sm text-gray-400">Dark</span>
+                </button>
+            </div>
+        </div>
     </div>
-</div>
 </div>
