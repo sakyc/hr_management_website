@@ -2,6 +2,7 @@
 
 use App\Livewire\Auth\Page\ForgotPassword;
 use App\Livewire\Auth\Page\Login;
+use App\Livewire\Auth\Page\Otp;
 use App\Livewire\Settings\Appearance;
 use App\Livewire\Settings\Password;
 use App\Livewire\Settings\Profile;
@@ -10,3 +11,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/login', Login::class)->name('login');
 Route::get('/forgot-password', ForgotPassword::class)->name('forgot-password');
+Route::get('/otp', Otp::class)->name('otp');
