@@ -1,6 +1,6 @@
 <div>
-<div class="min-h-screen bg-white p-6">
-    <div class="max-w-7xl mx-auto">
+<div class="min-h-screen bg-white p-6 ml-64">
+    <div class="w-full mx-auto">
         <!-- Header Section -->
         <div class="bg-white rounded-lg shadow-sm p-6 mb-6">
             <div class="flex justify-between items-center mb-6">
