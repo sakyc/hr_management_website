@@ -1,5 +1,5 @@
 <div class="min-h-screen bg-white p-6 ml-64 rounded">
-    <div class="p-5 bg-white shadow-md rounded-md">
+    <div class="p-5 bg-white shadow-md rounded-md flex flex-col gap-5">
         <div class="flex justify-between items-center">
             {{-- search --}}
             <div class="flex gap-2 p-2 shadow-sm rounded-md">
@@ -41,6 +41,7 @@
                 </tr>
             </tbody>
         </table>
+
         <div class="flex gap-2">
             <div class="flex items-center gap-2">
                 <div class="h-2 w-2 bg-primary rounded-full"></div>
