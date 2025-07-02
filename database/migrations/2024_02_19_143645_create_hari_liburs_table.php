@@ -11,9 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('employees', function (Blueprint $table) {
-            $table->id();
-            $table->string('name', 255);
+        Schema::create('hari_libur', function (Blueprint $table) {
+            $table->id('id');
+            $table->date('tanggal');
+            $table->string('keterangan', 100);
+            $table->unsignedBigInteger('created_by');
+            $table->foreign('created_by')->references('id')->on('admin')->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -23,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('employees');
+        Schema::dropIfExists('hari_libur');
     }
 };

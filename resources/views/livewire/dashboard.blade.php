@@ -71,11 +71,11 @@
                             </div>
 
                             <!-- Chart Container -->
-                            <div class="h-64 flex items-end justify-between space-x-2">
+                            <div class="h-64 flex items-end justify-between">
                                 <!-- Mon -->
                                 <div class="flex-1 flex flex-col items-center">
-                                    <div class="w-full bg-gray-100 rounded-t flex flex-col" style="height: 200px;">
-                                        <div class="bg-blue-500 rounded-t" style="height: 45%;"></div>
+                                    <div class="w-2 bg-gray-100 rounded-t flex flex-col" style="height: 200px;">
+                                        <div class="bg-blue-500 rounded-t mb-2" style="height: 45%;"></div>
                                         <div class="bg-yellow-400" style="height: 25%;"></div>
                                         <div class="bg-red-500 rounded-b" style="height: 30%;"></div>
                                     </div>
@@ -84,7 +84,7 @@
 
                                 <!-- Tue -->
                                 <div class="flex-1 flex flex-col items-center">
-                                    <div class="w-full bg-gray-100 rounded-t flex flex-col" style="height: 220px;">
+                                    <div class="w-4 bg-gray-100 rounded-t flex flex-col" style="height: 220px;">
                                         <div class="bg-blue-500 rounded-t" style="height: 50%;"></div>
                                         <div class="bg-yellow-400" style="height: 20%;"></div>
                                         <div class="bg-red-500 rounded-b" style="height: 30%;"></div>
@@ -94,7 +94,7 @@
 
                                 <!-- Wed -->
                                 <div class="flex-1 flex flex-col items-center">
-                                    <div class="w-full bg-gray-100 rounded-t flex flex-col" style="height: 240px;">
+                                    <div class="w-4 bg-gray-100 rounded-t flex flex-col" style="height: 240px;">
                                         <div class="bg-blue-500 rounded-t" style="height: 55%;"></div>
                                         <div class="bg-yellow-400" style="height: 15%;"></div>
                                         <div class="bg-red-500 rounded-b" style="height: 30%;"></div>
@@ -104,7 +104,7 @@
 
                                 <!-- Thu -->
                                 <div class="flex-1 flex flex-col items-center">
-                                    <div class="w-full bg-gray-100 rounded-t flex flex-col" style="height: 200px;">
+                                    <div class="w-4 bg-gray-100 rounded-t flex flex-col" style="height: 200px;">
                                         <div class="bg-blue-500 rounded-t" style="height: 60%;"></div>
                                         <div class="bg-yellow-400" style="height: 10%;"></div>
                                         <div class="bg-red-500 rounded-b" style="height: 30%;"></div>
@@ -114,7 +114,7 @@
 
                                 <!-- Fri -->
                                 <div class="flex-1 flex flex-col items-center">
-                                    <div class="w-full bg-gray-100 rounded-t flex flex-col" style="height: 180px;">
+                                    <div class="w-4 bg-gray-100 rounded-t flex flex-col" style="height: 180px;">
                                         <div class="bg-blue-500 rounded-t" style="height: 40%;"></div>
                                         <div class="bg-yellow-400" style="height: 25%;"></div>
                                         <div class="bg-red-500 rounded-b" style="height: 35%;"></div>
@@ -124,7 +124,7 @@
 
                                 <!-- Sat -->
                                 <div class="flex-1 flex flex-col items-center">
-                                    <div class="w-full bg-gray-100 rounded-t flex flex-col" style="height: 260px;">
+                                    <div class="w-4 bg-gray-100 rounded-t flex flex-col" style="height: 260px;">
                                         <div class="bg-blue-500 rounded-t" style="height: 65%;"></div>
                                         <div class="bg-yellow-400" style="height: 15%;"></div>
                                         <div class="bg-red-500 rounded-b" style="height: 20%;"></div>
@@ -134,7 +134,7 @@
 
                                 <!-- Sun -->
                                 <div class="flex-1 flex flex-col items-center">
-                                    <div class="w-full bg-gray-100 rounded-t flex flex-col" style="height: 160px;">
+                                    <div class="w-4 bg-gray-100 rounded-t flex flex-col" style="height: 160px;">
                                         <div class="bg-blue-500 rounded-t" style="height: 50%;"></div>
                                         <div class="bg-yellow-400" style="height: 20%;"></div>
                                         <div class="bg-red-500 rounded-b" style="height: 30%;"></div>
